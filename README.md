@@ -12,6 +12,6 @@ Fixes https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/2746
 4. Start the game. If you want to verify that the mod is working you can check your BepInEx logs.
 
 ## Credits 
-[Gyztor Mizirath](https://github.com/Gyztor)
+[Gyztor Mizirath](https://github.com/Gyztor) - Bepis Port
 
 Orginal Fix - https://github.com/ResoniteModdingGroup/CommunityBugFixCollection/pull/37
