@@ -1,0 +1,41 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "GyztorMizirath"
+name = "DontCrashDecimal"
+versionNumber = "1.0.0"
+description = "A Bepis Mod Loader mod that stops Decimal Value type crashes."
+websiteUrl = "https://github.com/Gyztor/DontCrashDecimal"
+containsNsfwContent = false
+
+[package.dependencies]
+ResoniteModding-BepisLoader = "1.6.0"
+
+
+[build]
+icon = "./Icon.png"
+readme = "./README.md"
+outdir = "./bin/build"
+
+[[build.copy]]
+source = "./LICENSE.md"
+target = "/"
+
+
+[[build.copy]]
+source = "./DontCrashDecimal/bin/Release/DontCrashDecimal.dll"
+target = "plugins/DontCrashDecimal/"
+
+[[build.copy]]
+source = "./DontCrashDecimal/bin/Release/DontCrashDecimal.pdb"
+target = "plugins/DontCrashDecimal/"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["resonite"]
+
+[publish.categories]
+resonite = []
+
+
