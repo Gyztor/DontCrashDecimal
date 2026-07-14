@@ -1,19 +1,10 @@
 using BepInEx;
-using BepInEx.Configuration;
 using BepInEx.Logging;
 using BepInEx.NET.Common;
 using BepInExResoniteShim;
 //using BepisResoniteWrapper;
 using Elements.Core;
-using FrooxEngine;
-using FrooxEngine.UIX;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using FrooxEngine.UIX;
 using HarmonyLib;
-using System.Reflection;
-using System.Reflection.Emit;
 
 namespace DontCrashDecimal;
 

@@ -2,6 +2,7 @@
 [![Thunderstore Badge](https://modding.resonite.net/assets/available-on-thunderstore.svg)](https://thunderstore.io/c/resonite/)
 
 A [Resonite](https://resonite.com/) mod that makes Decimal Value Modulus not crash.
+Fixes https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/2746
 
 ## Installation (Manual)
 1. Install [BepisLoader](https://github.com/ResoniteModding/BepisLoader) for Resonite.
