@@ -9,7 +9,7 @@ using HarmonyLib;
 namespace DontCrashDecimal;
 
 [ResonitePlugin(PluginMetadata.GUID, PluginMetadata.NAME, PluginMetadata.VERSION, PluginMetadata.AUTHORS, PluginMetadata.REPOSITORY_URL)]
-[BepInDependency(BepInExResoniteShim.PluginMetadata.GUID)]
+[BepInDependency(PluginMetadata.GUID)]
 public class DontCrashDecimal : BasePlugin
 {
     internal new static ManualLogSource Log = null!;

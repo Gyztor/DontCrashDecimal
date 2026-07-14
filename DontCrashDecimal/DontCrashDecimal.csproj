@@ -5,10 +5,10 @@
     <Version>1.0.0</Version>
     <Authors>Gyztor Mizirath</Authors>
     <TargetFramework>net10.0</TargetFramework>
-    <RepositoryUrl>https://github.com/Gyztor/FixCopyComponentDrives</RepositoryUrl>
-    <PackageId>xyz.gyztormizirath.FixCopyComp</PackageId>
-    <Product>FixCopyComp</Product>
-    <RootNamespace>FixCopyComp</RootNamespace>
+    <RepositoryUrl>https://github.com/Gyztor/DontCrashDecimal</RepositoryUrl>
+    <PackageId>xyz.gyztormizirath.DontCrashDecimal</PackageId>
+    <Product>DontCrashDecimal</Product>
+    <RootNamespace>DontCrashDecimal</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <ResoniteTargetModLoader>BepisLoader</ResoniteTargetModLoader>
     <Nullable>enable</Nullable>
