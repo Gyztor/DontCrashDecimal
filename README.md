@@ -15,3 +15,7 @@ Fixes https://github.com/Yellow-Dog-Man/Resonite-Issues/issues/2746
 [Gyztor Mizirath](https://github.com/Gyztor) - Bepis Port
 
 Orginal Fix - https://github.com/ResoniteModdingGroup/CommunityBugFixCollection/pull/37
+
+# RML
+
+There is a verion of the mod for RML that you can download in the releases. Mainly Built for Headlesses but will work fine for client as well.
