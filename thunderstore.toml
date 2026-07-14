@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 namespace = "GyztorMizirath"
 name = "DontCrashDecimal"
 versionNumber = "1.0.0"
-description = "A Bepis Mod Loader mod that stops Decimal Value type crashes."
+description = "A Bepis Mod Loader mod that stops Decimal Value type crashes with Modulus Protoflux Node."
 websiteUrl = "https://github.com/Gyztor/DontCrashDecimal"
 containsNsfwContent = false
 
