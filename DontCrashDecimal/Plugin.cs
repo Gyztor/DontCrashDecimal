@@ -2,14 +2,14 @@ using BepInEx;
 using BepInEx.Logging;
 using BepInEx.NET.Common;
 using BepInExResoniteShim;
-//using BepisResoniteWrapper;
+using BepisResoniteWrapper;
 using Elements.Core;
 using HarmonyLib;
 
 namespace DontCrashDecimal;
 
 [ResonitePlugin(PluginMetadata.GUID, PluginMetadata.NAME, PluginMetadata.VERSION, PluginMetadata.AUTHORS, PluginMetadata.REPOSITORY_URL)]
-[BepInDependency(PluginMetadata.GUID)]
+[BepInDependency(BepInExResoniteShim.PluginMetadata.GUID)]
 public class DontCrashDecimal : BasePlugin
 {
     internal new static ManualLogSource Log = null!;
