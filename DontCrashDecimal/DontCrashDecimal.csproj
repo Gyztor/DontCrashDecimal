@@ -10,7 +10,7 @@
     <Product>DontCrashDecimal</Product>
     <RootNamespace>DontCrashDecimal</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ResoniteTargetModLoader>BepisLoader</ResoniteTargetModLoader>
+    <ResoniteTargetModLoader>ResoniteModLoader</ResoniteTargetModLoader>
     <Nullable>enable</Nullable>
     <Deterministic>true</Deterministic>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -27,11 +27,8 @@
 
   <!-- Modding dependencies -->
   <ItemGroup>
-    <PackageReference Include="BepInEx.NET.CoreCLR" Version="6.0.0-be.*" IncludeAssets="compile" />
-    <PackageReference Include="BepInEx.ResonitePluginInfoProps" Version="3.*" />
-    <PackageReference Include="ResoniteModding.BepInExResoniteShim" Version="0.9.*" />
-    <PackageReference Include="ResoniteModding.BepisLocaleLoader" Version="1.*" />
-    <PackageReference Include="HarmonyX" Version="2.*" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <PackageReference Include="ResoniteModLoader" Version="5.0.1" />
   </ItemGroup>
 
   <!-- NuGet fallback stripped game references -->

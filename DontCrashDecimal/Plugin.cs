@@ -1,32 +1,27 @@
-using BepInEx;
-using BepInEx.Logging;
-using BepInEx.NET.Common;
-using BepInExResoniteShim;
-using BepisResoniteWrapper;
+using ResoniteModLoader;
 using Elements.Core;
 using HarmonyLib;
 
 namespace DontCrashDecimal;
 
-[ResonitePlugin(PluginMetadata.GUID, PluginMetadata.NAME, PluginMetadata.VERSION, PluginMetadata.AUTHORS, PluginMetadata.REPOSITORY_URL)]
-[BepInDependency(BepInExResoniteShim.PluginMetadata.GUID)]
-public class DontCrashDecimal : BasePlugin
+public class DontCrashDecimal : ResoniteMod
 {
-    internal new static ManualLogSource Log = null!;
+    public override string Name => "DontCrashDecimal";
+    public override string Author => "Gyztor Mizirath";
+    public override string Version => "1.0.0";
+    public override string Link => "https://github.com/Gyztor/DontCrashDecimal/";
 
-    public override void Load()
+    public override void OnEngineInit()
     {
-        Log = base.Log;
-
         try
         {
-
-            HarmonyInstance.PatchAll();
-            Log.LogInfo("Dont Crash Decimal has Loaded!");
+            Harmony harmony = new Harmony("xyz.gyztormizirath.DontCrashDecimal");
+            harmony.PatchAll();
+            Debug("Dont Crash Decimal has Loaded!");
         } 
         catch (System.Exception ex)
         {
-            Log.LogError($"Dont Crash Decimal failed to patch: {ex}");
+            Error($"Dont Crash Decimal failed to patch: {ex}");
         }
 
     }
