@@ -39,13 +39,6 @@
     <PackageReference Include="Resonite.GameLibs" Version="2026.*" />
   </ItemGroup>
 
-  <PropertyGroup Condition="'$(Configuration)' == 'EvilPatches'">
-    <DefineConstants>EvilPatches</DefineConstants>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(Configuration)' != 'EvilPatches'">
-    <Compile Remove="EvilPatches\**" />
-  </ItemGroup>
-
 
 
   <!-- Local game references -->
